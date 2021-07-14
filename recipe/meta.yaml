@@ -4,7 +4,7 @@
 {% set native = 'm2w64-' if win else '' %}
 
 package:
-  name: r-tiledbjupytershiny
+  name: r-tiledb-jupyter-shiny
   version: {{ version|replace("-", "_") }}
 
 source:
@@ -30,14 +30,14 @@ requirements:
     - {{posix}}zip               # [win]
 
   host:
-    - r-base
+    - r-base 3.6.*
     - r-irdisplay
     - r-callr
     - r-pingr
     - r-shiny
 
   run:
-    - r-base
+    - r-base 3.6.*
     - r-irdisplay
     - r-callr
     - r-pingr
