@@ -1,5 +1,5 @@
-About r-shinybg
-============================
+About r-shiny-bg
+================
 
 Home: https://github.com/TileDB-Inc/shinybg
 
@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinybg-feedstock/blob/master/LICENSE.txt)
 
-Summary: Render Shiny apps inside a Jupyter notebook.
+Summary: Render Shiny apps inside a Jupyter notebook
 
 Current build status
 ====================
@@ -27,24 +27,45 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64</td>
+              <td>linux_64_r_base4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=osx&configuration=osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-shinybg-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr>
@@ -60,35 +81,36 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-r--shinybg-green.svg)](https://anaconda.org/conda-forge/r-shinybg) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-shinybg.svg)](https://anaconda.org/conda-forge/r-shinybg) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-shinybg.svg)](https://anaconda.org/conda-forge/r-shinybg) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-shinybg.svg)](https://anaconda.org/conda-forge/r-shinybg) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--shiny--bg-green.svg)](https://anaconda.org/conda-forge/r-shiny-bg) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-shiny-bg.svg)](https://anaconda.org/conda-forge/r-shiny-bg) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-shiny-bg.svg)](https://anaconda.org/conda-forge/r-shiny-bg) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-shiny-bg.svg)](https://anaconda.org/conda-forge/r-shiny-bg) |
 
-Installing r-shinybg
-=================================
+Installing r-shiny-bg
+=====================
 
-Installing `r-shinybg` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `r-shiny-bg` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `r-shinybg` can be installed with:
+Once the `conda-forge` channel has been enabled, `r-shiny-bg` can be installed with:
 
 ```
-conda install r-shinybg
+conda install r-shiny-bg
 ```
 
-It is possible to list all of the versions of `r-shinybg` available on your platform with:
+It is possible to list all of the versions of `r-shiny-bg` available on your platform with:
 
 ```
-conda search r-shinybg --channel conda-forge
+conda search r-shiny-bg --channel conda-forge
 ```
 
 
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -123,17 +145,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating r-shinybg-feedstock
-=========================================
+Updating r-shiny-bg-feedstock
+=============================
 
-If you would like to improve the r-shinybg recipe or build a new
+If you would like to improve the r-shiny-bg recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/r-shinybg-feedstock are
+Note that all branches in the conda-forge/r-shiny-bg-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -148,4 +170,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@SarantopoulosKon](https://github.com/SarantopoulosKon/)
+* [@Shelnutt2](https://github.com/Shelnutt2/)
+* [@aaronwolen](https://github.com/aaronwolen/)
+* [@ihnorton](https://github.com/ihnorton/)
 

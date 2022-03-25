@@ -1,4 +1,4 @@
-{% set name = "r-shiny-bg" %}
+{% set name = "r-shinybg" %}
 {% set version = "0.1.5" %}
 
 {% set posix = 'm2-' if win else '' %}
@@ -24,13 +24,13 @@ requirements:
     - {{posix}}git
     - {{posix}}zip               # [win]
   host:
-    - r-base 3.6.*
+    - r-base
     - r-irdisplay
     - r-callr
     - r-pingr
     - r-shiny
   run:
-    - r-base 3.6.*
+    - r-base
     - r-irdisplay
     - r-callr
     - r-pingr
