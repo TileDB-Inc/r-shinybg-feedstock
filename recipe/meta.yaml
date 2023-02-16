@@ -1,5 +1,5 @@
 {% set name = "r-shiny-bg" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/TileDB-Inc/shinybg/archive/v{{ version }}.tar.gz
-  sha256: 779180fadd3dd00d736fb0b6fe75fa156a7d89c729153aee88c88ce50fc0c083
+  sha256: 730088d4c82582e29fa3d0212bd6b7f6ecc943fc12c25d0aa9620a55921b877f
 
 build:
   number: 0
