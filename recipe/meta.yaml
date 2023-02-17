@@ -13,7 +13,7 @@ source:
   sha256: 730088d4c82582e29fa3d0212bd6b7f6ecc943fc12c25d0aa9620a55921b877f
 
 build:
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -24,13 +24,13 @@ requirements:
     - {{posix}}git
     - {{posix}}zip               # [win]
   host:
-    - r-base 3.6.*
+    - r-base
     - r-irdisplay
     - r-callr
     - r-pingr
     - r-shiny
   run:
-    - r-base 3.6.*
+    - r-base
     - r-irdisplay
     - r-callr
     - r-pingr
