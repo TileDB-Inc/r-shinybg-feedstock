@@ -1,4 +1,4 @@
-{% set name = "r-shiny-bg" %}
+{% set name = "r-shinybg" %}
 {% set version = "0.1.6" %}
 
 {% set posix = 'm2-' if win else '' %}
@@ -13,7 +13,7 @@ source:
   sha256: 730088d4c82582e29fa3d0212bd6b7f6ecc943fc12c25d0aa9620a55921b877f
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
