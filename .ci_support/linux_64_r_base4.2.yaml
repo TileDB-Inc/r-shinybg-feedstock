@@ -12,7 +12,5 @@ pin_run_as_build:
     max_pin: x.x
 r_base:
 - '4.2'
-- '4.3'
-- '4.4'
 target_platform:
 - linux-64
