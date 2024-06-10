@@ -1,7 +1,7 @@
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- tiledb main
 pin_run_as_build:
   r-base:
     min_pin: x.x
