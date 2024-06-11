@@ -47,4 +47,5 @@ jobs:
         sha: $(Build.SourceVersion)
         UPLOAD_PACKAGES: $(UPLOAD_PACKAGES)
         UPLOAD_TEMP: $(UPLOAD_TEMP)
+        UPLOAD_ON_BRANCH: master
         BINSTAR_TOKEN: $(BINSTAR_TOKEN)
