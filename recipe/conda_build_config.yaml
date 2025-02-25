@@ -1,2 +1,5 @@
 channel_targets:
   - tiledb main
+r_base:
+  - 4.3
+  - 4.4  # [not win]
